@@ -70,8 +70,8 @@ I mainly focused on keeping it as simple as I could, keeping it so that anyone c
 
 ## HOW CAN IT BE IMPROVED 
 
-                     - Add sound effects 🎵
-                     - Increase difficulty over time (speed scaling)
+                    - Add sound effects 
+                    - Increase difficulty over time (speed scaling)
                     - Add pause/resume feature
                     - Improve UI with better animations and design
                     - Add mobile controls (touch support)
