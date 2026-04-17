@@ -1,0 +1,51 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+
+button {
+    margin-top: 15px;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+
+    background-color: black;
+    color: lime;
+    border: 2px solid lime;
+    border-radius: 8px;
+
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    box-shadow: 0 0 10px lime;
+}
+
+button:hover {
+    background-color: lime;
+    color: black;
+    transform: scale(1.05);
+
+    box-shadow: 0 0 20px lime;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+canvas {
+    border: 3px solid lime;
+    margin-top: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.4);
+}
